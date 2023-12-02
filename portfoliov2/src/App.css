@@ -1,0 +1,10 @@
+body {
+  background-image: url("./components/Images/astronaut-4106766_1920.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+
