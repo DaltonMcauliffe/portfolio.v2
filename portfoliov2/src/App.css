@@ -6,5 +6,86 @@ body {
   height: 100vh;
   width: 100vw;
 }
+.Header {
+  color: white;
+  font-size: 150px;
+  font-family: "Audiowide";
+}
+.Container {
+  background-color:black;
+  height: 75px;
+}
 
+.Container li {
+display: inline;
+margin: 25px;
+position: left;
+}
+.Container a{
+  color: white;
+ font-size: 30px;
+ text-decoration: none;
+}
+.Container a:hover {
+color:lightcoral;
+font-size: 30px;
+}
+.Content-Container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  position: relative;
+}
+.Anime-Avatar {
+ text-align: center;
+}
 
+.Home-Header h1{
+  text-align: center;
+  color: white;
+  font-size:75px;
+  font-family: "Audiowide", sans-serif;
+}
+.Home-Container-P{
+  background-color: rgba(213, 190, 215, 0.6);
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 16;
+  font-weight: 700;
+  max-width:450px;
+}
+
+.Skills-List-Background {
+background-color: rgba(213, 190, 215, 0.4);
+}
+.Skills-List{
+  text-align: center;
+  color: black;
+  z-index: 1;
+  font-weight: 700;
+}
+
+.Skills-List H1 {
+  text-decoration-line: underline;
+  font-family: "Audiowide", sans-serif;
+  
+}
+
+.Contact-Header h1 {
+  text-align: center;
+  color: white;
+  font-size: 75px;
+  font-family: "Audiowide", sans-serif;
+}
+
+.Links a {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+
+.Links {
+  text-align: center;
+  font-size: 40px;
+}
