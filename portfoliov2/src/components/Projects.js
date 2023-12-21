@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card, CardBody, CardSubtitle, CardText, CardTitle, Button} from 'reactstrap'
 import DogLogo from './components/Images/The Woof (1).png'
+
 const Projects = () => {
  
   const handleClick = () => {

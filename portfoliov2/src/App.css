@@ -1,3 +1,4 @@
+
 body {
   background-image: url("./components/Images/astronaut-4106766_1920.jpg");
   background-size: cover;
@@ -61,7 +62,7 @@ background-color: rgba(213, 190, 215, 0.4);
 }
 .Skills-List{
   text-align: center;
-  color: black;
+  color:black;
   z-index: 1;
   font-weight: 700;
 }
@@ -88,4 +89,26 @@ background-color: rgba(213, 190, 215, 0.4);
 .Links {
   text-align: center;
   font-size: 40px;
+}
+
+.footer {
+ bottom: 0;
+  position: fixed;
+  width: 100%;
+  margin-bottom: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.projects-folder {
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+  color: white;
+  width: auto;
+}
+
+.Projects-Header {
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+  color: white;
 }
