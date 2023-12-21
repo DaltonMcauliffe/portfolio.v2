@@ -2,12 +2,16 @@ import React from 'react'
 import { Card, CardBody, CardSubtitle, CardText, CardTitle, Button} from 'reactstrap'
 import DogLogo from '/Users/learnacademy/Desktop/portfolio.v2/portfoliov2/src/components/Images/The Woof (1).png'
 const Projects = () => {
+ 
   const handleClick = () => {
     window.open('https://good-dogs-tinder.onrender.com/', '_blank')
   }
 
   return (
    <>
+   <div className='Projects-Header'>
+  <h1>Projects</h1>
+  </div>
    <div className='projects-folder'>
    <Card
   style={{

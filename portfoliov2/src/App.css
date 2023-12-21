@@ -1,3 +1,4 @@
+
 body {
   background-image: url("./components/Images/astronaut-4106766_1920.jpg");
   background-size: cover;
@@ -103,5 +104,11 @@ background-color: rgba(213, 190, 215, 0.4);
   text-align: center;
   font-family: "Audiowide", sans-serif;
   color: white;
+  width: auto;
 }
 
+.Projects-Header {
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+  color: white;
+}
